@@ -56,7 +56,13 @@
             </div>
 
             <ul class="nav">
-                <li class="active">
+                <li class=" ">
+                    <a href="<?= site_url('admin/dashboard') ?>">
+                        <i class="ti-user"></i>
+                        <p>Dashboard</p>
+                    </a>
+                </li>
+                <li class="">
                     <a href="<?= site_url('admin/Testimonials') ?>">
                         <i class="ti-panel"></i>
                         <p>Testimonials</p>
